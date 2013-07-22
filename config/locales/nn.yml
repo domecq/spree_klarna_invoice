@@ -1,0 +1,11 @@
+nn:
+  sso: 'Person- eller org.nr.'
+  invoice_fee_before: 'Ved valg av faktura tilkommer et fakturatillegg på NOK'
+  invoice_fee_after: '.'
+  invoice_fee: 'Fakturagebyr'
+  email_invoice: 'Send fakturaer via e-post'
+  post_invoice: 'Skicka faktura via post (extra kostnader kan tillkomma)'
+  pnr_validation_first: 'Person- eller org.nr. må være'
+  between: 'mellom'
+  chars: 'tegn'
+  pnr_formats: 'I noen av disse formatene'

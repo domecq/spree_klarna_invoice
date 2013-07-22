@@ -1,0 +1,11 @@
+sv-SE:
+  sso: 'Personnummer eller organisationsnummer'
+  invoice_fee_before: 'Vid betalsätt faktura tillkommer en kostnad på'
+  invoice_fee_after: 'kr'
+  invoice_fee: 'Fakturaavgift'
+  email_invoice: 'Skicka faktura via e-post'
+  post_invoice: 'Skicka faktura via post (extra kostnader kan tillkomma)'
+  pnr_validation_first: 'Personnummer/organisationsnummer måste vara'
+  between: 'mellan'
+  chars: 'tecken'
+  pnr_formats: 'I något av dessa format'
