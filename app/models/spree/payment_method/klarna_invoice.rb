@@ -17,7 +17,7 @@ class Spree::PaymentMethod::KlarnaInvoice < Spree::PaymentMethod
   preference :pnr_min, :integer, :default => 8
   preference :pnr_max, :integer, :default => 10
   
-  attr_accessible :store_id, :store_secret, :mode, :invoice_fee, :auto_activate, :activate_in_days, :email_invoice, :send_invoice, :country_code, :language_code, :logging, :http_logging, :timeout, :preferred_store_id, :preferred_store_secret, :preferred_mode, :preferred_invoice_fee, :preferred_auto_activate, :preferred_activate_in_days, :preferred_email_invoice, :preferred_send_invoice, :preferred_country_code, :preferred_language_code, :preferred_logging, :preferred_http_logging, :preferred_timeout, :preferred_currency_code, :preferred_pnr_formats, :preferred_pnr_min, :preferred_pnr_max
+  # attr_accessible :store_id, :store_secret, :mode, :invoice_fee, :auto_activate, :activate_in_days, :email_invoice, :send_invoice, :country_code, :language_code, :logging, :http_logging, :timeout, :preferred_store_id, :preferred_store_secret, :preferred_mode, :preferred_invoice_fee, :preferred_auto_activate, :preferred_activate_in_days, :preferred_email_invoice, :preferred_send_invoice, :preferred_country_code, :preferred_language_code, :preferred_logging, :preferred_http_logging, :preferred_timeout, :preferred_currency_code, :preferred_pnr_formats, :preferred_pnr_min, :preferred_pnr_max
   
   def auto_capture?
     true

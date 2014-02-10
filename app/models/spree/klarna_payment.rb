@@ -7,7 +7,7 @@ class Spree::KlarnaPayment < ActiveRecord::Base
   has_many :payments, :as => :source
 
   validates :social_security_number, :firstname, :lastname, :presence => true
-  attr_accessible :firstname, :lastname, :social_security_number, :invoice_number, :client_ip
+  # attr_accessible :firstname, :lastname, :social_security_number, :invoice_number, :client_ip
 
   def actions
     %w{capture}

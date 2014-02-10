@@ -10,6 +10,6 @@ else
   gem "ruby-debug19"
 end
 
-gem 'klarna', :path => '../klarna-ruby'
+gem 'klarna'
 
 gemspec
